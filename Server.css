@@ -1,0 +1,340 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 121px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.logocontainer{
+    display: flex;
+    align-items: center;
+    padding-left: 31px;
+    font-family: arial;
+}
+.logo-container{
+    align-items: center;
+    height: 51px;
+    display: flex;
+    font-size: 1.1rem;
+    background-color: #ffffff;
+}
+.logo img{
+    width: 61px;
+    height: 40px;
+}
+.nav{
+    width: 460px;
+    height: 31px;
+    padding-left: 121px;
+    justify-content: space-evenly;
+    display: flex; 
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    font-size: 13.1px;
+    font-weight: bolder;
+}
+.nav ul li{
+    
+    margin-top: 11px;
+}
+.nav ul li a{
+    color: #464b4b;
+    text-decoration: none;
+    padding-right: 31px;
+    
+}
+.nav ul li sup{
+    color: #d91e59;
+}
+.search{
+    width: 402px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 21px;
+    align-items: center;
+    border-radius: 2px;
+    margin-left: 131px;  
+}
+.search input{
+    width: 100%;
+    height: 100%;
+    background-color: #f1f1f2;
+    border: none;
+    padding: 21px;
+    font-size: 13.1px;
+    font-family: arial;
+  
+}
+.searchfav{
+    width: 41px;
+    height: 40px;
+    background-color: #f1f1f2;
+    padding-left: 11px;
+    padding-top: 11px;
+}
+.Profile{
+    width: 50px;
+    height: 31px;
+    font-size: 13.1px;
+    font-family: arial;
+    padding-left: 21px;
+    cursor: pointer;
+}
+.fav{
+text-align: center;
+}
+.cart{
+    width: 50px;
+    height: 31px;
+    font-size: 13.1px;
+    font-family: arial;
+    margin-left: 41px;
+    cursor: pointer;
+}
+.cartfav{
+    text-align: center;
+}
+.Bag{
+    width: 50px;
+    height: 31px;
+    font-size: 13.1px;
+    font-family: arial;
+    padding-left: 24px;
+    cursor: pointer;
+}
+.favicon{
+    text-align: center;
+}
+.sale{
+    width: 100%;
+    padding-left: 21px;
+}
+.sale img{
+    width: 1121px;
+    margin-left: 61px;
+}
+.return{
+    width: 100%;
+    
+}
+.return img{
+    width: 100%;
+}
+.leftright{
+    width: 100%;
+    display: flex;
+}
+.Men img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.Women img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.image-right{
+    width: 100%;
+    cursor: pointer;
+}
+.image-right img{
+    width: 100%;
+}
+.image-left{
+    width: 100%;
+    display: flex;
+}
+.left{
+    width: 50%;
+}
+.left img{
+    width: 100%;
+}
+.right{
+    width: 50%;
+}
+.right img{
+    width: 100%;
+}
+.less{
+    width: 100%;
+}
+.less img{
+    width: 100%;
+}
+.card{
+    display: flex;
+}
+.card{
+    width: 100%;
+}
+.card img{
+    width: 114px;
+    height: 161px;
+}
+.lesser{
+    width: 100%;
+}
+.lesser img{
+    width: 100%;
+}
+.container-part{
+    width: 100%;
+    display: flex;
+}
+.part{
+    width: 224px; 
+}
+.part img{
+    width: 100%;
+}
+.par{
+    width: 100%;
+}
+.par img{
+    width: 100%;
+}
+
+.computerkeep{
+    display: flex;
+}
+.policies{
+    padding-left: 121px;
+    padding-top: 121px;
+    display: flex;
+}
+.policies ul{
+    font-family: arial;
+    list-style: none;
+    
+}
+.policies ul li p{
+    font-size: 13.1px;
+    color: #373a3a;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    font-weight: bolder;
+}
+.policies ul li a{
+    font-size: 13.1px;
+    color: #5e6262;
+    text-decoration: none;
+}
+.computer{
+    padding-left: 121px;
+    font-size: 13.1px;
+    font-family: arial;
+    font-weight: bolder;
+    padding-top: 141px;
+    
+}
+.computer img{
+    width: 121px;
+    height: 41px;
+    margin-top: 31px;
+}
+.keep{
+    padding-left: 41px;
+    margin-top: 31px;
+    font-family: arial;
+    font-weight: bolder;
+    
+}
+.keeplogo img{
+    width: 21px;
+    height: 21px;
+}
+.originalogo{
+    padding-left: 121px;
+    display: flex;
+    padding-top: 141px;
+}
+.originalogo img{
+    width: 41px;
+    height: 41px;
+    
+}
+.originalogo span{
+    font-size: 13.1px;
+    font-weight: bolder;
+    color: #3f3f41;
+}
+.originalogo p{
+    font-size: 13.1px;
+    font-family: arial;
+    color: #949497;
+}
+.computersearch ul span{
+    font-size: 13.1px;
+    font-family: arial;
+    
+    margin-right: 140px;
+    margin-top: 31px;
+    color: #4a4a4c;
+    font-family: arial;
+    font-weight: bolder;
+}
+.computersearch ul li{
+    list-style: none;
+    
+}
+.computersearch ul li p{
+    font-size: 13.1px;
+    color: #8d8d92;
+}
+.computersearch{
+   margin-left: 121px;
+   padding-top: 21px;
+   font-family: arial;
+}
+.location{
+    width: 100%;
+    font-size: 13.1px;
+    font-family: arial;
+    padding-top: 21px;
+    padding-left: 121px;
+}
+.location ul{
+    list-style: none;
+}
+.location ul li{
+    color: #86868d;
+    
+}
+.location li p{
+    color: #282829;
+    font-weight: bolder;
+    
+}
+.computersearch ol{
+    margin-left: 21px;
+}
+.computersearch ol li{
+    margin-top: 21px;
+}
+.computersearch ol span{
+    color: #3c3c3e;
+    font-weight: bolder;
+    font-size: 13.1px;
+    font-family: arial;
+}
+.computersearch ol p{
+    font-size: 13.1px;
+    color: #98989b;
+}
+.computersearch ul p{
+    padding-top: 11px;
+}
+.computersearch ol li p{
+    padding-top: 21px;
+}
+
